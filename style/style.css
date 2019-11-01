@@ -1,0 +1,218 @@
+@font-face
+{
+    font-family: 'barlow';
+    src: url('Barlow-Regular.ttf');
+}
+
+.container
+{
+    width: 1300px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    font-family: 'barlow';
+    color: #2A4A5C;
+}
+
+.text-top
+{
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+
+.text-top h1
+{
+    font-size: 30px;
+}
+
+.text-top h2
+{
+    font-size: 20px;
+    font-weight: 550;
+    opacity: 0.7;
+}
+
+.buttons
+{
+    margin-left: 70px;
+    margin-top: 100px;
+    display: flex;
+    
+}
+
+.fb-login-button button
+{
+    display: flex;
+    background: #255A9B;
+    width: 220px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    border: 0px;
+}
+
+.linkedin-login-button button
+{
+    display: flex;
+    background: #0076B6;
+    width: 220px;
+    height: 30px;
+    margin-left: 40px;
+    text-align: center;
+    color: white;
+    border: 0px;
+}
+
+.linkedin-login-button button img
+{
+    width: 20px;
+    height: 20px;
+}
+
+.button-img
+{
+    width: 20px;
+    height: 20px;
+}
+
+.button-text
+{
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+.line
+{
+    display: flex;
+    margin-left: 142px;
+}
+
+.line hr:first-child
+{
+    margin-top: 100px;
+}
+
+.line hr:last-child
+{
+    margin-top: 100px;
+}
+
+.line p
+{
+    margin-top: 90px;
+    height: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.contact
+{
+    margin-left: 70px;
+    margin-top: 70px;
+    display: flex;
+    height: 100px;
+}
+
+.email input
+{
+    width: 220px;
+    height: 40px;
+}
+
+.phone input
+{
+    width: 220px;
+    height: 40px;
+    margin-left: 40px;
+}
+
+.text-middle
+{
+    margin-left: 70px;
+}
+
+.text-middle p
+{
+    font-size: 20px;
+    font-weight: 650;
+}
+
+.text-middle p1
+{
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+.selector-block
+{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+.selector-block input
+{
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #999;
+    transition: 0.2s all linear;
+    margin-right: 10px;
+}
+
+.selector-block label
+{
+    display: none;
+    width: 300px;
+    position: absolute;
+    margin-top: 30px;
+    margin-right: 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2)
+    
+}
+
+.selector-block p
+{
+    margin-top: 1px;
+    margin-right: 40px;
+}
+
+.agree
+{
+    margin: 70px;
+    font-size: 12px;
+}
+
+.create-button button
+{
+    margin-left: 70px;
+    margin-top: -30px;
+    background: #255A9B;
+    width: 220px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    border: 0px;
+}
+
+#r-1:checked + label
+{
+    display: block;
+}
+
+#r-2:checked + label
+{
+    display: block;
+}
+
+#r-3:checked + label
+{
+    display: block;
+}
+
+#r-4:checked + label
+{
+    display: block;
+}
